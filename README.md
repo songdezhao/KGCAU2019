@@ -10,7 +10,7 @@ body {
     width: 200px;
     position: fixed;
     z-index: 1;
-    top: 200px;
+    top: 160px;
     left: 10px;
     background: #fff;
     overflow-x: hidden;
