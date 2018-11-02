@@ -2,21 +2,23 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+.sidenav {
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 120px;
+    left: 20px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 10px;
-}
-a {
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
+    font-size: 16px;
+    color: #2196F3;
     display: block;
-    font-size: 15pt;
-    color: #029;
 }
 </style>
 </head>
@@ -26,20 +28,16 @@ a {
     <h1>KGNL2019: International Workshop on Designing, Building, Integrating and Utilizing Knowledge Graphs</h1>
 </header>
 
-<nav>
-    <div>
-        <ul>
-            <li><a href="#news">News</a></li>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#important_dates">Important Dates</a></li>
-            <li><a href="#topics_of_interest">Topics of Interest</a></li>
-            <li><a href="#paper_submission">Paper Submission</a></li>
-            <li><a href="#organization">Organization</a></li>
-            <li><a href="#program_committee">Program Committee</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
+<div class="sidenav">
+  <a href="#news">News</a>
+  <a href="#introduction">Introduction</a>
+  <a href="#important_dates">Important Dates</a>
+  <a href="#topics_of_interest">Topics of Interest</a>
+  <a href="#paper_submission">Paper Submission</a>
+  <a href="#organization">Organization</a>
+  <a href="#program_committee">Program Committee</a>
+  <a href="#contact">Contact</a>
+</div>
 
 <div class="main" id="news">
     <h2>News</h2>
