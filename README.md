@@ -14,7 +14,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #058;
+    color: #029;
 }
 </style>
 </head>
