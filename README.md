@@ -17,7 +17,7 @@
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 16px;
-    color: #2196F3;
+    color: #029;
     display: block;
 }
 </style>
