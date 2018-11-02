@@ -62,6 +62,15 @@ li {
     <h1>KGNL2019: International Workshop on Designing, Building, Integrating and Utilizing Knowledge Graphs</h1>
 </header>
 
+<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+        
 <div class="sidenav">
   <a href="#news">News</a>
   <a href="#introduction">Introduction</a>
