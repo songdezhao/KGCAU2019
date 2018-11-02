@@ -48,7 +48,18 @@
 
 <div class="intro" id="introduction">
     <h2>Introduction</h2>
-    
+    <p>
+        The term <i>Knowledge Graph</i> has been widely adopted to generally describe entities and their relationships. Nowadays, Knowledge Graphs are an active topic in many research areas, such as Databases, Computational Linguistics, Machine Learning, Semantic Web, among many others. The goal of our proposed workshop is to address related research and practical problems that arise when creating and using knowledge graphs and to bring different research communities together to share their respective findings. 
+    </p>
+    <p>
+        Even though the amount of structured data has been rapidly growing, a large amount of information is still in textual format, e.g., legal documents, financial reports, news articles, medical records, to  name only a few. Entity recognition, relation extraction, entity linking/normalization/disambiguation, coreference and other related techniques are the key to extract valuable information from such free text in order to build new or augment exisiting knowledge graphs (e.g., DBpedia, YAGO and Wikidata). Also, different knowledge graphs may describe the same entities differently in terms of schema/ontology or comprehensiveness. Record linkage, schema/ontology alignment, data integration in general are important techniques in breaking down the data silos. In terms of applications, knowledge graphs have been adopted in question answering, natural language generation, dialogue systems, and explainable AI in various domains, such as legal, tax, finance and healthcare.
+    </p>
+    <p>
+        In practice, many industrial organizations have been building and adopting knowledge graphs: Google's Knowledge Vault, The LinkedIn Knowledge Graph, the Amazon Product Knowledge Graph, the Microsoft Academic Graph, and the Open PermID from Thomson Reuters. There are many challenges during this process. What are the technical challenges when building knowledge graphs? Did they build the knowledge graphs from scratch or upon any existing open data? What are the challenges in designing the schema/ontology of a knowledge graph (e.g., lack of domain expertise)? How are knowledge graphs physically stored (e.g., graph databases, inverted indices, or relational databases) and queried? How did they evaluate the quality of knowledge graphs in order to provide high-quality customer-facing products, and how are customer feedbacks being used to improve the quality and/or comprehensiveness of the knowledge graphs?
+    </p>
+    <p>
+        Therefore, our workshop will solicit proposals in dealing with fundamental research problems related to knowledge graphs, the underlying key NLP and machine learning techniques, the diverse applications of knowledge graphs, and challenges and lessons learned during the process of building and adopting knowledge graphs, especially in diverse domains.
+    </p>
 </div>
 
 <div class="main" id="important_dates">
