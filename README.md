@@ -14,6 +14,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
+    font-size: 15pt;
     color: #029;
 }
 </style>
