@@ -4,7 +4,6 @@
 <style>
 .sidenav {
     width: 180px;
-    position: fixed;
     z-index: 1;
     top: 120px;
     left: 20px;
