@@ -2,13 +2,17 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
 .sidenav {
-    width: 180px;
+    width: 200px;
     position: fixed;
     z-index: 1;
-    top: 120px;
-    left: 20px;
-    background: #eee;
+    top: 100px;
+    left: 10px;
+    background: #fff;
     overflow-x: hidden;
     padding: 8px 0;
 }
@@ -16,15 +20,29 @@
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     color: #029;
     display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 200px; /* Same width as the sidebar + left position in px */
+    top: 100px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 </style>
 </head>
 <body>
 
-<header>
+<header class="main">
     <h1>KGNL2019: International Workshop on Designing, Building, Integrating and Utilizing Knowledge Graphs</h1>
 </header>
 
@@ -46,7 +64,7 @@
     </ul>
 </div>
 
-<div class="intro" id="introduction">
+<div class="main" id="introduction">
     <h2>Introduction</h2>
     <p>
         The term <i>Knowledge Graph</i> has been widely adopted to generally describe entities and their relationships. Nowadays, Knowledge Graphs are an active topic in many research areas, such as Databases, Computational Linguistics, Machine Learning, Semantic Web, among many others. The goal of our proposed workshop is to address related research and practical problems that arise when creating and using knowledge graphs and to bring different research communities together to share their respective findings. 
