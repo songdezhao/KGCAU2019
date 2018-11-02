@@ -2,27 +2,40 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {
-    font-family: "Lato", sans-serif;
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
 }
 </style>
 </head>
 <body>
 
-<header class="main">
+<header>
     <h1>KGNL2019: International Workshop on Designing, Building, Integrating and Utilizing Knowledge Graphs</h1>
 </header>
 
 <nav>
     <div>
-      <a href="#news">News</a>
-      <a href="#introduction">Introduction</a>
-      <a href="#important_dates">Important Dates</a>
-      <a href="#topics_of_interest">Topics of Interest</a>
-      <a href="#paper_submission">Paper Submission</a>
-      <a href="#organization">Organization</a>
-      <a href="#program_committee">Program Committee</a>
-      <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#news">News</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#important_dates">Important Dates</a></li>
+            <li><a href="#topics_of_interest">Topics of Interest</a></li>
+            <li><a href="#paper_submission">Paper Submission</a></li>
+            <li><a href="#organization">Organization</a></li>
+            <li><a href="#program_committee">Program Committee</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
 </nav>
 
