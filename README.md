@@ -5,55 +5,6 @@
 body {
     font-family: "Lato", sans-serif;
 }
-
-.sidenav {
-    width: 180px;
-    position: fixed;
-    z-index: 1;
-    top: 120px;
-    left: 20px;
-    background: #eee;
-    overflow-x: hidden;
-    padding: 8px 0;
-}
-
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #2196F3;
-    display: block;
-}
-
-.sidenav a:hover {
-    color: #064579;
-}
-
-.main {
-    margin-left: 240px; /* Same width as the sidebar + left position in px */
-    font-size: 16px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-    margin-bottom: 3em;
-}
-    
-.intro {
-    width: auto;
-    max-width: 900px;
-    word-wrap: normal;
-    margin-left: 240px; /* Same width as the sidebar + left position in px */
-    font-size: 16px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-    margin-bottom: 3em;
-}    
-
-li {
-    margin: 10px 0;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
 </style>
 </head>
 <body>
@@ -63,24 +14,17 @@ li {
 </header>
 
 <nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-        
-<div class="sidenav">
-  <a href="#news">News</a>
-  <a href="#introduction">Introduction</a>
-  <a href="#important_dates">Important Dates</a>
-  <a href="#topics_of_interest">Topics of Interest</a>
-  <a href="#paper_submission">Paper Submission</a>
-  <a href="#organization">Organization</a>
-  <a href="#program_committee">Program Committee</a>
-  <a href="#contact">Contact</a>
-</div>
+    <div>
+      <a href="#news">News</a>
+      <a href="#introduction">Introduction</a>
+      <a href="#important_dates">Important Dates</a>
+      <a href="#topics_of_interest">Topics of Interest</a>
+      <a href="#paper_submission">Paper Submission</a>
+      <a href="#organization">Organization</a>
+      <a href="#program_committee">Program Committee</a>
+      <a href="#contact">Contact</a>
+    </div>
+</nav>
 
 <div class="main" id="news">
     <h2>News</h2>
