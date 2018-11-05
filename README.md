@@ -122,7 +122,7 @@ body {
         <ul>
             <li>Real-world use cases of knowledge graphs</li>
             <li>Integrating knowledge graphs into customer-facing products</li>
-            <li>Challenges and lessons learned in building and adopting knowledge graphs in real-world</li>
+            <li>Challenges and lessons learned in building and adopting knowledge graphs in real-world applications</li>
         </ul>
     </ul>
 </div>
