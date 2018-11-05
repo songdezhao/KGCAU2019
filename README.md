@@ -7,7 +7,7 @@ body {
 }
 
 .sidenav {
-    width: 150px;
+    width: 160px;
     position: fixed;
     z-index: 1;
     top: 160px;
@@ -30,7 +30,7 @@ body {
 }
 
 .main {
-    margin-left: 150px; /* Same width as the sidebar + left position in px */
+    margin-left: 160px; /* Same width as the sidebar + left position in px */
     top: 100px;
 }
 
