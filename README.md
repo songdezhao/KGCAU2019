@@ -30,7 +30,7 @@ body {
 }
 
 .main {
-    margin-left: 160px; /* Same width as the sidebar + left position in px */
+    margin-left: 200px; /* Same width as the sidebar + left position in px */
     top: 100px;
 }
 
@@ -43,7 +43,7 @@ body {
 <body>
 
 <header class="main">
-    <h1>KGNL2019: International Workshop on Designing, Building, Integrating and Utilizing Knowledge Graphs</h1>
+    <h1>KGCAU2019: International Workshop on Knowledge Graph Creation, Augmentation and Utilization</h1>
 </header>
 
 <div class="sidenav">
