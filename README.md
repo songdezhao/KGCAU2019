@@ -7,7 +7,7 @@ body {
 }
 
 .sidenav {
-    width: 160px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 160px;
@@ -73,7 +73,7 @@ body {
         A large amount of information is still only available in textual format, e.g., legal documents, financial reports, news articles, medical records, etc. Entity recognition, relation extraction, entity linking/disambiguation, coreference and other related techniques are the key to extracting valuable information from free text in order to build new or augment exisiting knowledge graphs (e.g., DBpedia, YAGO and Wikidata). Also, different knowledge graphs may describe the same entities differently in terms of schema/ontology or comprehensiveness. Record linkage, schema/ontology alignment, data integration in general are important techniques in breaking down the data silos. In terms of applications, knowledge graphs have been adopted in question answering, natural language generation, dialogue systems, and explainable AI in various domains, such as legal, tax, finance and healthcare.
     </p>
     <p>
-        In practice, many industrial organizations have been building and adopting knowledge graphs: Google's Knowledge Vault, The LinkedIn Knowledge Graph, the Amazon Product Knowledge Graph, the Microsoft Academic Graph, and the Open PermID from Thomson Reuters. There are many challenges during this process. What are the technical challenges when building knowledge graphs? Were the knowledge graphs built from scratch or upon any existing open data? What are the challenges in designing the schema/ontology of a knowledge graph (e.g., lack of domain expertise)? How are knowledge graphs physically stored (e.g., graph databases, inverted indices, or relational databases) and queried? How did they evaluate the quality of knowledge graphs in order to provide high-quality customer-facing products, and how is customer feedback used to improve the quality and/or comprehensiveness of the knowledge graphs?
+        In practice, many industrial organizations have been building and adopting knowledge graphs: Google's Knowledge Vault, The LinkedIn Knowledge Graph, the Amazon Product Knowledge Graph, the Microsoft Academic Graph, and the Open PermID from Thomson Reuters. What are the technical challenges when building knowledge graphs? Were the knowledge graphs built from scratch or upon any existing open data? What are the challenges in designing the schema/ontology of a knowledge graph (e.g., lack of domain expertise)? How are knowledge graphs physically stored (e.g., graph databases, inverted indices, or relational databases) and queried? How did they evaluate the quality of knowledge graphs in order to provide high-quality customer-facing products, and how is customer feedback used to improve the quality and/or comprehensiveness of the knowledge graphs?
     </p>
     <p>
         Therefore, our workshop will solicit proposals related to knowledge graphs, the underlying key NLP and machine learning techniques, the diverse applications of knowledge graphs, and challenges and lessons learned during the process of building and adopting knowledge graphs, especially in diverse domains.
