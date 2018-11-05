@@ -131,7 +131,7 @@ body {
 <div class="main" id="paper_submission">
     <h2>Paper Submission</h2>
     <ul>
-        <li>We solicit both full and short paper submissions.</li>
+        <li>We welcome both full and short paper submissions.</li>
         <li>Full and short papers should not exceed 8 pages and 4 pages respectively.</li>
         <li>Submissions must be in PDF and formatted according to the NAACL-HLT 2019 paper style.</li>
     </ul>
