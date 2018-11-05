@@ -93,6 +93,7 @@ body {
 <div class="main" id="topics_of_interest">
     <h2>Topics of Interest</h2>
     Topics include, but are not limited to, the following:
+    <br>
     <ul>
         <li><b>Knowledge Graphs</b></li>
         <ul>
@@ -101,7 +102,7 @@ body {
             <li>Integrating large-scale and heterogeneous knowledge graphs</li>
             <li>Schema alignment and ontology mapping</li>
         </ul>
-
+        <br>
         <li><b>Natural Language Processing and machine learning</b></li>
         <ul>
             <li>Named entity and relation recognition</li>
@@ -109,7 +110,7 @@ body {
             <li>Learning ontologies and schemas from textual data</li>
             <li>Using knowledge graphs for better machine learning model explainability</li>
         </ul>
-        
+        <br>
         <li><b>Applications</b></li>
         <ul>
             <li>Question answering</li>
@@ -117,7 +118,7 @@ body {
             <li>Dialogue systems</li>
             <li>Novel tools for visualizing and navigating knowledge graphs</li>
         </ul>
-        
+        <br>
         <li><b>Knowledge Graph in Practice (in various domains, e.g., medicine, law, environment, healthcare)</b></li>
         <ul>
             <li>Real-world use cases of knowledge graphs</li>
